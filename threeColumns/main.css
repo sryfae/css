@@ -1,0 +1,55 @@
+.three-col {
+  height: 200px;
+  margin-bottom: 30px;
+}
+.three-col .left {
+  height: 200px;
+  background: #333;
+}
+.three-col .center {
+  height: 200px;
+  background: #f3f3f3;
+}
+.three-col .right {
+  height: 200px;
+  background: #3C3659;
+}
+.three-col1 {
+  position: relative;
+}
+.three-col1 .left {
+  position: absolute;
+  left: 0;
+  width: 200px;
+}
+.three-col1 .right {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  top: 0;
+}
+.three-col1 .center {
+  margin: 0 200px;
+  width: auto;
+}
+.three-col2 {
+  display: flex;
+}
+.three-col2 .left,
+.three-col2 .right {
+  flex: 0 0 200px;
+}
+.three-col2 .center {
+  flex: 1;
+}
+.three-col3 .left {
+  float: left;
+  width: 200px;
+}
+.three-col3 .right {
+  float: right;
+  width: 200px;
+}
+.three-col3 .center {
+  margin: 0 200px;
+}

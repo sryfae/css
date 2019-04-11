@@ -1,0 +1,58 @@
+.three-col {
+    height: 200px;
+    margin-bottom: 30px;
+    .left {
+        height: 200px;
+        background: #333;
+    }
+    .center {
+        height: 200px;
+        background: #f3f3f3;
+    }
+    .right {
+        height: 200px;
+        background: #3C3659;
+    }
+}
+.three-col1 {
+    position: relative;
+    .left {
+        position: absolute;
+        left: 0;
+        width: 200px;
+    }
+    .right {
+        position: absolute;
+        right: 0;
+        width: 200px;
+        top: 0
+    }
+    .center {
+        margin: 0 200px;
+        width: auto;
+    }
+}
+
+.three-col2 {
+    display: flex;
+    .left, .right {
+        flex: 0 0 200px;
+    }
+    .center {
+        flex: 1;
+    }
+}
+
+.three-col3 {
+    .left {
+        float: left;
+        width: 200px;
+    }
+    .right {
+        float: right;
+        width: 200px;
+    }
+    .center {
+        margin: 0 200px;
+    }
+}

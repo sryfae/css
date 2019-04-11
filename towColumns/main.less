@@ -1,0 +1,61 @@
+.two-col {
+    height: 200px;
+    margin-bottom: 30px;
+    .left {
+        height: 200px;
+        background: #333;
+    }
+    .right {
+        height: 200px;
+        background: #f3f3f3;
+    }
+}
+// 浮动
+.two-col1 {
+    .left {
+        float: left;
+        width: 200px;
+    }
+    .right {
+        width: auto;
+    }
+}
+
+// flex
+.two-col2 {
+    display: flex;
+    .left {
+        flex: 0 0 200px;
+    }
+    .right {
+        flex: 1;
+    }
+}
+
+// position布局
+.two-col3 {
+    position: relative;
+    .left {
+        position: absolute;
+        width: 200px;
+        left: 0;
+        top: 0;
+    }
+    .right {
+        margin-left: 200px;
+    }
+}
+
+// // position布局
+.two-col4 {
+    position: relative;
+    .left {
+        width: 200px;
+    }
+    .right {
+        position: absolute;
+        left: 200px;
+        top: 0;
+        right: 0;
+    }
+}

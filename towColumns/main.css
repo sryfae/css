@@ -1,0 +1,52 @@
+.two-col {
+  height: 200px;
+  margin-bottom: 30px;
+}
+.two-col .left {
+  height: 200px;
+  background: #333;
+}
+.two-col .right {
+  height: 200px;
+  background: #f3f3f3;
+}
+.two-col1 .left {
+  float: left;
+  width: 200px;
+}
+.two-col1 .right {
+  width: auto;
+}
+.two-col2 {
+  display: flex;
+}
+.two-col2 .left {
+  flex: 0 0 200px;
+}
+.two-col2 .right {
+  flex: 1;
+}
+.two-col3 {
+  position: relative;
+}
+.two-col3 .left {
+  position: absolute;
+  width: 200px;
+  left: 0;
+  top: 0;
+}
+.two-col3 .right {
+  margin-left: 200px;
+}
+.two-col4 {
+  position: relative;
+}
+.two-col4 .left {
+  width: 200px;
+}
+.two-col4 .right {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  right: 0;
+}
